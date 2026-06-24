@@ -60,6 +60,12 @@ body {
   color: var(--color-text-primary);
 }
 
+.nav-logo img {
+  height: 44px;
+  width: auto;
+  display: block;
+}
+
 .nav-right { gap: 32px; }
 
 .nav-link {
@@ -618,8 +624,8 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.7;
-  color: var(--color-footer-beige);
-  opacity: 0.8;
+  color: var(--color-footer-white);
+  opacity: 0.85;
   max-width: 540px;
   margin: 0;
 }
@@ -628,7 +634,7 @@ body {
   display: flex;
   align-items: center;
   gap: 10px;
-  color: var(--color-footer-beige);
+  color: var(--color-footer-white);
   text-decoration: none;
   font-family: var(--font-body);
   font-size: 14px;
@@ -654,6 +660,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  justify-content: center;
   gap: 28px;
 }
 
@@ -697,8 +704,8 @@ body {
 .footer-copyright {
   font-size: 13px;
   font-weight: 400;
-  color: var(--color-footer-beige);
-  opacity: 0.55;
+  color: var(--color-footer-white);
+  opacity: 0.7;
   letter-spacing: 0.02em;
 }
 
